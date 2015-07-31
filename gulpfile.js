@@ -22,35 +22,30 @@ gulp.task('sass-to-css', function () {
 });
 
 // CSS ftp task
+//gulp.task('ftp-css', ['sass-to-css'], function () {
+//    return gulp.src('public/css/*')
+//        .pipe(ftp({
+//            host: '66.241.194.6',
+//            user: 'craigs',
+//            pass: 'aacraigs',
+//            remotePath: 'INPACC/css'
+//        }));
+//});
+
+
 gulp.task('ftp-css', ['sass-to-css'], function () {
     return gulp.src('public/css/*')
         .pipe(ftp({
             host: '66.241.194.6',
-            user: 'zackp',
-            pass: 'aazackp',
-            remotePath: 'TVAED/css'
+            user: 'cshannon',
+            pass: 'aacraigs',
+            remotePath: 'INPACC/css'
         }));
 });
 
-// JS ftp task
-gulp.task('ftp-js', function () {
-    return gulp.src('public/js/main.js')
-        .pipe(ftp({
-            host: '66.241.194.6',
-            user: 'zackp',
-            pass: 'aazackp',
-            remotePath: 'TVAED/js'
-        }));
-});
 
 // watch
 gulp.task('watch', function () {
     // what to watch
-    gulp.watch('build/sass/*.scss', function () {
-        // what to run
-        gulp.run('ftp-css');
-    });
-    gulp.watch('public/js/main.js', function () {
-        gulp.run('ftp-js');
-    })
+    gulp.watch('build/scss/*.scss', ['ftp-css']);
 });

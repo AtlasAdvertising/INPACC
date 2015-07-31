@@ -1,0 +1,40 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    transition: all .1s linear;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    font-family:$Lato;
+    color:#222222;
+}
+
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.breadCrumbs {
+    .breadcrumbHome {
+        font-size: 20px;
+    }
+    div,
+    a {
+        float: left;
+        color: #fef33e;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,71 @@
+/*# FOOTER #*/
+
+#topFooter {
+    background: #152e46;
+    color: #b0b0b0;
+    padding: 15px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    #socialMedia {
+        float: right;
+        clear: both;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        li {
+            float: left;
+            padding: 0px 5px;
+            font-size: 22px;
+            color: #375879;
+            a {
+                color: #fff;
+                &:hover {
+                    color: #f8ed54;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: #375879;
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+    }
+    a {
+        color: #fff;
+        &:hover {
+            color: #fff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
+.btn-footer {
+    background: #b6b6b6;
+    color: #375879;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+    font-size: 20px !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    &:hover {
+        color: #fff !important;
+        background: #152e46;
+    }
+}
+
+.paprepLogo {
+    margin-top: 50px;
+}

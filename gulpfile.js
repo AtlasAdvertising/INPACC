@@ -47,5 +47,5 @@ gulp.task('ftp-css', ['sass-to-css'], function () {
 // watch
 gulp.task('watch', function () {
     // what to watch
-    gulp.watch('build/scss/*.scss', ['ftp-css']);
+    gulp.watch('build/scss/*', ['ftp-css']);
 });

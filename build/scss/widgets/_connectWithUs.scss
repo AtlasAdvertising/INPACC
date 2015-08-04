@@ -1,0 +1,95 @@
+/*# WIDGETS/Connect with us #*/
+
+.ConnectWithUs {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    h2 {
+        font: $widgetTitleFont;
+        color: $widgetTitleColor;
+    }
+    .Staff {
+        position: absolute;
+        font-family: Arial;
+        width: 100%;
+        .Controls {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            float: left;
+            .button .triangle {
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                position: absolute;
+                top: 5px;
+                left: 9px;
+            }
+        }
+        .Name,
+        .Title,
+        .Email {
+            float: left;
+            clear: left;
+            width: 100%;
+            margin-top: 5px;
+        }
+        .Photo {
+            width: 100% !important;
+            height: auto;
+            padding: 0;
+            overflow: hidden;
+            margin: 0 0 10px;
+            img {
+                width: auto !important;
+                max-width: 100%;
+                height: auto !important;
+            }
+        }
+        .FirstName {
+            float: left;
+            color: #375879;
+            font-size: 20px;
+        }
+    }
+    .connectArrowLeft {
+        padding: 4px 0px 4px 7px;
+        color: #666666;
+        cursor: pointer;
+        font-size: 28px;
+    }
+    .connectArrowRight {
+        padding: 4px 7px 4px 0px;
+        color: #666666;
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 28px
+    }
+    .Controls {
+        i:hover {
+            opacity: 0.8;
+        }
+        a {
+            width: 100%;
+            float: left;
+            margin-top: 5px;
+            color: #6fbf49;
+        }
+    }
+    .Contact {
+        float: left;
+        width: 50%;
+        a .fa {
+            color: #a9a8a2;
+            font-size: 24px;
+            margin-right: 5px;
+        }
+        a {
+            color: #6fbf49;
+        }
+        i:hover {
+            color: #444444;
+        }
+    }
+}

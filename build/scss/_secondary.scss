@@ -3,6 +3,7 @@
 }
 
 .PageUtility {
+    z-index: 900 !important;
     .UtilityButton, .UtilityButton a {
         color: #fef33f !important;
         padding: 12px 8px 8px 8px !important;
@@ -11,9 +12,92 @@
     .ImgBg {
         display: none;
     }
-    
-.PageUtility_Wrapper,
-.PageUtility_Wrapper_NoPage {
-    width: 290px !important;
+    .PageUtility_Wrapper,
+    .PageUtility_Wrapper_NoPage {
+        width: 300px !important;
+    }
+    .PageUtility_Dropdown {
+        box-shadow: 0px 2px 7px #BABABA;
+        top: 40px !important;
+    }
 }
+
+#fancybox-wrap {
+    padding: 0px !important;
+}
+
+.pageContentWrapper {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+/*# SECONDARY/secondary navigation #*/
+
+ul#subNavigation {
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    li {
+        margin-bottom: 10px;
+        float: left;
+        display: inline-block;
+        border: solid 1px #152e46;
+        position: relative;
+        margin-right: -1px;
+        &.HighLighted a {
+            background: #152e46;
+            color: #ffffff;
+            opacity: 1;
+        }
+        a {
+            padding: 8px 14px;
+            color: #152e46;
+            display: inline-block;
+            background: #fff;
+            &:hover {
+                text-decoration: none;
+                color: #fef33e;
+                background: #152e46;
+            }
+        }
+        ul {
+            display: none;
+            padding: 0px;
+            overflow: hidden;
+            position: absolute;
+            z-index: 950;
+            li {
+                margin-bottom: 0px;
+                display: block;
+                width: 100%;
+                min-width: 180px;
+                a {
+                    display: block;
+                    background: #6fbf49;
+                    color: #ffffff;
+                    &:hover {
+                        background: #5CAA37;
+                    }
+                    &:after {
+                        content: " \f078";
+                        font-family: "FontAwesome" !important;
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        &:hover ul {
+            display: block;
+        }
+    }
+}
+
+ul#subNavigation li > a:only-child:after {
+    content: "" !important;
+    display: none;
+}
+
+.editable-text-wrapper ul {
+    padding-left: 40px;
 }

@@ -88,6 +88,14 @@ nav {
             &:hover ul {
                 display: block;
             }
+            &:last-child ul {
+                left: auto;
+                right: 0px;
+                li ul {
+                    left: -200px;
+                    right: 0px;
+                }
+            }
             a {
                 font-family: 'Lato', sans-serif;
                 font-weight: 700;

@@ -1,0 +1,19 @@
+/*# WIDGETS/quick links #*/
+
+#sideWrapper {
+    .LinksList {
+        padding: 0px;
+        li {
+            margin-bottom: 5px;
+            list-style: none;
+            a {
+                font: $widgetLinkFont;
+                color: $widgetLinkColor;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

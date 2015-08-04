@@ -1,0 +1,80 @@
+div#p_lt_ctl02_pageplaceholder_p_lt_wpzMap_StaticGoogleMaps_map {
+    width: 100% !important;
+}
+
+.Office {
+    margin-top: 30px;
+    .OfficeName {
+        font: 700 24px/30px Lato;
+        color: #375879;
+    }
+    a {
+        color: #375879;
+    }
+}
+
+.contactStaff {
+    margin-top: 30px;
+}
+
+.keyStaff {
+    margin-bottom: 30px;
+}
+/* FORM */
+
+#contactFormWrapper {
+    margin-top: 40px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    table tr {
+        width: 30%;
+        float: left;
+    }
+    label {
+        color: #6d6e71;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    input[type=checkbox] {
+        margin-right: 5px;
+    }
+    input[type=text] {
+        width: 100%;
+        border: solid 1px #dbdad1;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    textarea {
+        width: 100%;
+        border: solid 1px #dbdad1;
+        margin-bottom: 10px;
+    }
+    .FormButton {
+        padding: 8px 30px;
+        color: #fff;
+        background: #375879;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        transition: background 0.3s ease;
+        &:hover {}
+    }
+}
+
+.negMargin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.invalid-input {
+    outline: none;
+    border-color: #FF0000;
+    box-shadow: 0 0 4px #FF0000;
+}
+
+.valid-input {
+    outline: none;
+    border-color: #12BA2D;
+    box-shadow: 0 0 4px #12BA2D;
+}

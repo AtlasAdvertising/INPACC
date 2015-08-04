@@ -1,0 +1,92 @@
+/*# HEADER/search #*/
+
+.searchHeader {
+    background: #375879;
+    padding: 10px 0px;
+    display: none;
+    label {
+        display: none;
+    }
+    input[type=text] {
+        background: #375879;
+        border: 0px;
+        padding: 10px;
+        font-size: 16px;
+        color: #ffffff;
+        width: 80%;
+        &:focus {
+            outline: 0px;
+        }
+    }
+    input[type=submit] {
+        margin-left: 10px;
+        float: left;
+        color: #ffffff;
+        width: 47px;
+        height: 36px;
+        border: 0px;
+        margin-top: 0px;
+        background: transparent;
+        display: inline-block;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+        content: " ";
+        font-size: 25px;
+    }
+    .fa-times {
+        float: right;
+        font-size: 20px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .searchBox {
+        width: 90%;
+        float: left;
+    }
+}
+/*# SEARCH #*/
+
+.SearchDialog {
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px #ccc;
+    .FieldLabel {
+        text-align: left;
+        white-space: nowrap;
+        color: #000;
+        padding-right: 20px;
+        padding-top: 4px
+    }
+    .ContentButton {
+        margin-top: 10px;
+        background: #375879;
+        font-size: 13px;
+        color: #ffffff !important;
+        padding: 10px 25px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+    }
+}
+
+.SearchResults {
+    margin-top: 20px;
+    input {
+        max-width: 80%;
+        margin-bottom: 10px;
+    }
+    a {
+        color: #000;
+        &:hover {
+            color: #6dbb48;
+        }
+    }
+}

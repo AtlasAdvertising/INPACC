@@ -1,0 +1,25 @@
+/*# WIDGETS/photo callout #*/
+
+.local-image {
+    a {
+        color: $widgetLinkColor;
+        font: $widgetLinkFont;
+        text-decoration: none;
+        display: block;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .SidebarText {
+        font-family: 'Roboto', sans-serif;
+        color: #555555;
+        font-weight: 400;
+        line-height: 20px !important;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 0px 25px 0px;
+    }
+    .SidebarImage img {
+        width: 100%;
+    }
+}

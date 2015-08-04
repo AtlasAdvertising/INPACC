@@ -1,0 +1,41 @@
+.before-move {
+    display: none;
+}
+
+.mobile-btn {
+    float: right;
+    top: 14px;
+    position: relative;
+    right: 20px;
+    font-size: 24px;
+    color: #000;
+}
+
+.mm-menu {
+    background: #375879 !important;
+    color: #fff !important;
+}
+
+.mm-menu .mm-listview > li .mm-prev:before,
+.mm-menu .mm-listview > li .mm-next:after,
+.mm-menu .mm-listview > li .mm-arrow:after {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.mm-menu .mm-listview > li .mm-prev:after,
+.mm-menu .mm-listview > li .mm-next:before {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.mm-menu .mm-listview > li:after {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.mm-menu .mm-navbar > a {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.mm-menu .mm-navbar .mm-btn:before,
+.mm-menu .mm-navbar .mm-btn:after {
+    border-color: rgba(255, 255, 255, 1) !important;
+}

@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Result",
+				"ResultLocation"
+			],
+			[
+				"hidd",
+				"hidden-lg"
+			],
+			[
+				"hidden-",
+				"hidden-sm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Auto detect text files and perform LF normalization\n* text=auto\n\n# Custom for Visual Studio\n*.cs     diff=csharp\n\n# Standard to msysgit\n*.doc	 diff=astextplain\n*.DOC	 diff=astextplain\n*.docx diff=astextplain\n*.DOCX diff=astextplain\n*.dot  diff=astextplain\n*.DOT  diff=astextplain\n*.pdf  diff=astextplain\n*.PDF	 diff=astextplain\n*.rtf	 diff=astextplain\n*.RTF	 diff=astextplains\n",
+			"file": ".gitattributes",
+			"file_size": 395,
+			"file_write_time": 130634386487196491,
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/scss/widgets/_connectWithUs.scss",
+			"settings":
+			{
+				"buffer_size": 2101,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*# WIDGETS #*/\n\n#sideWrapper {\n    margin-top: 30px;\n    .widget-block {\n        width: 100%;\n        margin-bottom: 10px;\n        border-top: $widgetBorderStyle;\n        padding-top: 15px;\n        h2 {\n            margin: 0px;\n            padding: 10px 0px 5px;\n            font: $widgetTitleFont;\n            color: $widgetTitleColor;\n        }\n    }\n    .widget-block-content {\n        font-family: 'Roboto', sans-serif;\n        color: #555555;\n        font-weight: 400;\n        line-height: 20px !important;\n        font-size: 15px;\n        line-height: 20px;\n        padding: 10px 0px 25px 0px;\n        a {\n            color: $widgetLinkColor;\n        }\n    }\n}\n\n",
+			"file": "build/scss/_widgets.scss",
+			"file_size": 699,
+			"file_write_time": 130831043247885689,
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/scss/widgets/_photoCallout.scss",
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/scss/widgets/_quickLinks.scss",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Windows",
+				"name": "_quickLinks.scss"
+			}
+		},
+		{
+			"file": "build/scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 371,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/scss/widgets/_widgets.scss",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1303,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/scss/_global.scss",
+			"settings":
+			{
+				"buffer_size": 1080,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pinst",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/GitHub/INPACC/build/scss/_widgets.scss",
+		"/C/Users/Craig Shannon/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/GitHub/warriorjs/warriorjs/mrwhite-beginner/README",
+		"/C/GitHub/warriorjs/warriorjs/mrwhite-beginner/Player.js",
+		"/C/GitHub/ogden/gulpfile.js",
+		"/C/GitHub/ogden/scss/_secondary.scss",
+		"/C/Resources/JS/CUBE PORTFOLIO/cbp-plugin/templates/juicy-projects/index.html",
+		"/C/GitHub/TVAED/gulpfile.js",
+		"/C/Resources/JS/CUBE PORTFOLIO/cbp-plugin/templates/blog-posts/index.html",
+		"/C/Resources/JS/CUBE PORTFOLIO/cbp-plugin/templates/blog-posts/js/main.js",
+		"/C/GitHub/kentico/CMSWebParts/AtlasAdvertising/SidebarDataDownload_Responsive.ascx.cs",
+		"/C/GitHub/energize/gulpfile.js",
+		"/C/GitHub/kentico/CMSWebParts/AtlasAdvertising/IncentiveCalculatorNJ/incentivesCalculator.js",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/InSite.ascx.cs",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/styles/Map.css",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/scripts/AtlasInSite.js",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/styles/AtlasInSite.css",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/LargeMap.ascx",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/InSite.ascx",
+		"/C/GitHub/kentico/CMSWebParts/MyFavorites/ajax.aspx.cs",
+		"/C/GitHub/kentico/CMSWebParts/MyFavorites/ajax.aspx",
+		"/C/GitHub/kentico/CMSWebParts/MyFavorites/scripts/MyFavoritesControls.js",
+		"/C/GitHub/kentico/CMSWebParts/MyFavorites/scripts/MyFavorites.js",
+		"/C/GitHub/kentico/CMSWebParts/InSite3/scripts/DataReport.js",
+		"/C/Users/Craig Shannon/Documents/GitHub/kentico/CMSWebParts/InSite3/styles/AtlasInSite.css",
+		"/C/Users/Craig Shannon/Documents/GitHub/kentico/CMSWebParts/InSite3/scripts/AtlasInSite.js",
+		"/C/Users/Craig Shannon/Documents/GitHub/kentico/CMSWebParts/InSite3/InSite.ascx",
+		"/C/Users/Craig Shannon/Desktop/AngularJS/part2/part2.html",
+		"/C/Users/Craig Shannon/Desktop/fp.js",
+		"/C/Users/Craig Shannon/Desktop/AngularJS/part2/app.js",
+		"/C/Users/Craig Shannon/Desktop/AngularJS/part1/app.js",
+		"/C/Users/Craig Shannon/Desktop/AngularJS/part1/part1.html",
+		"/C/Users/Craig Shannon/Desktop/AngularJS/angular.min.js",
+		"/C/Users/Craig Shannon/Desktop/DataCenterDownloadsAddToFavorites.ascx",
+		"/C/Users/Craig Shannon/Desktop/main.js",
+		"/C/Users/Craig Shannon/Desktop/VirtualTour.js",
+		"/C/Users/Craig Shannon/Desktop/VirtualTour/scripts/VirtualTour.js",
+		"/C/Users/Craig Shannon/Desktop/DataCenterDownloadsAddToFavorites.ascx.cs"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\GitHub\\kentico",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n            ",
+			"NearbyCompanies",
+			"NearbyProperties",
+			"ResultCompany.lon",
+			"ResultProperty",
+			"properties",
+			"ResultCompany",
+			"NearbyCompanies",
+			"clickThematic();",
+			"Gradient SearchButton",
+			".container",
+			"AtlasInSiteMap",
+			".AtlasInSiteMap",
+			"AddProperty",
+			"fa fa-plus-circle",
+			"AddToFavorites",
+			"function AddToFavorites",
+			"AddToFavorites",
+			"MyFavoritesIDs",
+			"ResultSummaryInner",
+			"MobileMenuItemIntro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitattributes",
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/scss/widgets/_connectWithUs.scss",
+					"settings":
+					{
+						"buffer_size": 2101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "build/scss/_widgets.scss",
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build/scss/widgets/_photoCallout.scss",
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "build/scss/widgets/_quickLinks.scss",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_quickLinks.scss",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "build/scss/main.scss",
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "build/scss/widgets/_widgets.scss",
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 1303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1283,
+								1283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build/scss/_global.scss",
+					"settings":
+					{
+						"buffer_size": 1080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}

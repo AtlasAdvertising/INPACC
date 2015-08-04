@@ -1,0 +1,59 @@
+/*# WIDGETS/downloads #*/
+
+#Sidebar_Downloads {
+    margin-bottom: 30px;
+    border-top: $widgetBorderStyle;
+    .SidebarTitle {
+        margin: 0px;
+        padding: 20px 0px 5px;
+        font: $widgetTitleFont;
+        color: $widgetTitleColor;
+    }
+    ul {
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 10px;
+        li {
+            margin: 0px !important;
+            color: #3D2625;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 18px;
+            padding: 10px 0 5px;
+            list-style: none;
+            &:before {
+                content: "" !important;
+                font-size: auto;
+                padding-right: 0px !important;
+            }
+        }
+    }
+    .SidebarListMyFavorites {
+        float: right;
+        padding: 7px 5px 0px 0px;
+        width: 22px;
+        img {
+            cursor: pointer;
+        }
+    }
+    .SidebarListIcon {
+        float: left;
+        padding: 3px 10px 3px 0px;
+        //display: none;
+    }
+    .SidebarListText {
+        padding-top: 5px;
+        a {
+            font: $widgetLinkFont;
+            color: $widgetLinkColor;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .addtofavorites,
+    .downloadnow {
+        display: none;
+    }
+}

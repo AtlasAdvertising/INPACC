@@ -14,12 +14,16 @@ header {
         margin-top: 10px;
         li {
             float: left;
+            margin-right: 10px;
             a {
                 font-size: 14px;
                 color: #375879;
                 padding: 5px;
                 font-family: 'Lato', sans-serif;
                 font-weight: 700;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -35,6 +39,9 @@ header {
             color: #375879;
             a {
                 color: #375879;
+                &:hover {
+                    color: #4fa800 ;
+                }
             }
         }
     }
@@ -92,7 +99,7 @@ nav {
                 left: auto;
                 right: 0px;
                 li ul {
-                    left: -200px;
+                    left: -200px !important;
                     right: 0px;
                 }
             }
@@ -136,6 +143,21 @@ nav {
                         display: block;
                         line-height: 1;
                         color: rgba(255, 255, 255, 0.6);
+                    }
+                    &:hover {
+                        ul {
+                            padding-left: 0px;
+                            z-index: 999999;
+                            border-bottom: solid 2px #6fbf49;
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            display: none;
+                            position: absolute;
+                            left: 200px;
+                            top: 0px;
+                            width: 200px;
+                            z-index: 999;
+                        }
                     }
                 }
             }
@@ -192,35 +214,53 @@ nav ul#nav li:nth-child(1):hover,
 nav ul#nav li:nth-child(1) ul,
 nav ul#nav li:nth-child(1).HighLighted {
     background: #78a04d;
+    li:hover {
+        background: #152E46;
+    }
 }
 
 nav ul#nav li:nth-child(2):hover,
 nav ul#nav li:nth-child(2) ul,
 nav ul#nav li:nth-child(2).HighLighted {
     background: #7a9268;
+    li:hover {
+        background: #152E46;
+    }
 }
 
 nav ul#nav li:nth-child(3):hover,
 nav ul#nav li:nth-child(3) ul,
 nav ul#nav li:nth-child(3).HighLighted {
     background: #657f6a;
+    li:hover {
+        background: #152E46;
+    }
 }
 
 nav ul#nav li:nth-child(4):hover,
 nav ul#nav li:nth-child(4) ul,
 nav ul#nav li:nth-child(4).HighLighted {
     background: #576d7a;
+    li:hover {
+        background: #78a04d;
+    }
 }
 
 nav ul#nav li:nth-child(5):hover,
 nav ul#nav li:nth-child(5) ul,
 nav ul#nav li:nth-child(5).HighLighted {
     background: #3f5b70;
+    li:hover {
+        background: #78a04d;
+    }
 }
 
 nav ul#nav li:nth-child(6):hover,
 nav ul#nav li:nth-child(6) ul,
 nav ul#nav li:nth-child(6).HighLighted {
     background: #152e46;
+    li:hover {
+        background: #78a04d;
+    }
 }
 /*end Hover Styles */

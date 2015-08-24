@@ -67,7 +67,11 @@ h6 {
 .btn-default {
     background: #375879;
     border-color: #375879;
-    color:#fff;
+    color: #fff;
+    &:hover {
+        background: #4fa800;
+        color: #fff;
+    }
 }
 
 .breadCrumbs {
@@ -80,4 +84,9 @@ h6 {
         color: #fef33e;
         padding: 10px 5px;
     }
+}
+
+#fancybox-wrap {
+    position: fixed !important;
+    padding: 0px;
 }

@@ -58,7 +58,8 @@ div#p_lt_ctl02_pageplaceholder_p_lt_wpzMap_StaticGoogleMaps_map {
         font-size: 18px;
         font-weight: 400;
         transition: background 0.3s ease;
-        &:hover {}
+        &:hover {color: #fff !important;
+    background: #4fa800;}
     }
 }
 

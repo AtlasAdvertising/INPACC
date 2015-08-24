@@ -7,6 +7,12 @@
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     line-height: 30px;
+    a {
+        color: #fff;
+        &:hover {
+            text-decoration: underline
+        }
+    }
     #socialMedia {
         float: right;
         clear: both;
@@ -22,6 +28,7 @@
                 color: #fff;
                 &:hover {
                     color: #f8ed54;
+                    text-decoration: none;
                 }
             }
         }
@@ -39,7 +46,7 @@ footer {
         font-family: 'Lato', sans-serif;
         font-weight: 700;
         font-size: 21px;
-        color:#fff;
+        color: #fff;
     }
     a {
         color: #fff;
@@ -63,10 +70,13 @@ footer {
     transition: background 0.3s ease;
     &:hover {
         color: #fff !important;
-        background: #152e46;
+        background: #4fa800;
     }
 }
 
 .paprepLogo {
     margin-top: 50px;
+    @media screen and (max-width: $sm) {
+        margin-top:0px;
+    }
 }
